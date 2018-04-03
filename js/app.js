@@ -7,6 +7,8 @@ alert('Welcome to my About me! Let\'s have a little fun today and play a quick g
 var userName = prompt('First, why don\'t you tell me your name?');
 alert('Welcome, ' + userName + '!');
 
+console.log('Username is ' + userName)
+
 alert(userName + ', today you\'re going to play a quick guessing game on everyone\'s favorite subject- Andrew Peacock! 3 of the following statements will be true and 2 will be false, it\'s your job to guess which is which! Good luck, he\'s a weird one!');
 
 var squatTruth = prompt('Okay ' + userName + ', your first query- In high school, Andrew could box squat over 800lbs! Answer with T for True or F for False!' ).toUpperCase();
@@ -17,5 +19,14 @@ if (squatTruth === 'T') {
 } else {
   alert('Please just use \'T\' for True or \'F\' for False!');
 }
+console.log(userName + ' answered ' + squatTruth + ' for question one')
 
-// var 
+var mixTape = prompt('Next statement, ' + userName + '! Andrew released a rap mixtape on Soundcloud last year, and one of the tracks went viral in June. \'T\' for True, \'F\' for False!').toUpperCase();
+if (mixTape === 'T') {
+  alert('Not quite, sadly Andrew has 0 raps avaiable for you to listen to on Soundcloud')
+} else if (mixTape === 'F') {
+  alert('Correct! Next question!');
+} else {
+  alert('Please stick to T and F for True and False!');
+}
+console.log(userName + ' answered ' + mixTape + 'for question two.')
