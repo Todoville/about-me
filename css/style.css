@@ -4,10 +4,41 @@ body {
 
 h1 {
   font-size: 96px;
-  color: turquoise;
-
+  background-color: burlywood;
+  color: lemonchiffon;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
 }
+
 h2 {
   font-size: 25px;
-  color: teal
+  font-weight: 200;
+  background-color: rgb(207, 161, 61);
+  text-align: right;
+}
+
+#underCard {
+color: #000;
+font-style: italic;
+text-align: center;
+text-decoration: underline; 
+letter-spacing: 0.1em
+}
+
+img {
+  position: float;
+  top: 175px;
+  right: 300px;
+}
+
+#questions {
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 50px;  
+  max-width: 650px;
+}
+
+#albums {
+  
 }
